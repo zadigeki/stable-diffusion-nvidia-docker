@@ -20,7 +20,7 @@ demo = gr.Interface(
     inputs=[
         gr.Textbox(placeholder="Place your input prompt here and start dreaming!", label="Input Prompt"),
         gr.Slider(1, 12, 1, step=1, label="Number of Images"),
-        gr.Slider(1, 200, 50, step=1, label="Steps"),
+        gr.Slider(1, 400, 50, step=1, label="Steps"),
         gr.Slider(256, 1024, 512, step=64, label="Height"),
         gr.Slider(256, 1024, 512, step=64, label="Width"),
         gr.Slider(0, 20, 7.5, step=0.5, label="Guidance Scale"),
